@@ -9,6 +9,6 @@ package edu.agents.station3.thirdConveyor;
  *
  * @author DaZi20
  */
-public class thirdConveyor {
+public class storageConveyorAgent {
     
 }
