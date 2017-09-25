@@ -96,7 +96,7 @@ public class StorageConveyor extends StationComponent {
         moveToStorage2();}
     }
     
-    /**Wait until object reaches Storage1,proceed the storing process  **/ 
+    /**Wait until object reaches Storage1,than proceed the storing process  **/ 
     public void moveToStorage1(){
        while (!pusher1Engaged()) { 
            /* wait while conveyor is moving object to first Stacker
@@ -116,7 +116,7 @@ public class StorageConveyor extends StationComponent {
     }
     
     
-    /**Wait until object reaches Storage2,proceed the storing process  **/
+    /**Wait until object reaches Storage2,than proceed the storing process  **/
     public void moveToStorage2(){
        while (!pusher2Engaged()) { 
            /* wait while conveyor is moving object to seccond Stacker

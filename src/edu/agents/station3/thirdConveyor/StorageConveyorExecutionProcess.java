@@ -36,7 +36,7 @@ public class StorageConveyorExecutionProcess extends CyclicBehaviour{
         }
         catch (Exception e ) {
         aclMessage.setPerformative(ACLMessage.INFORM); // maybe failure
-                aclMessage.setContent(String.valueOf(false));
+                aclMessage.setContent(String.valueOf(false) + e.getMessage());
         myAgent.send(aclMessage);
                 return;
                 
@@ -47,7 +47,7 @@ public class StorageConveyorExecutionProcess extends CyclicBehaviour{
         aclMessage.setContent(String.valueOf(true));
         myAgent.send(aclMessage);
      }
-     block(500); // why block ????? 
+     block(500); // why block ????? ??
     }
     
 }
