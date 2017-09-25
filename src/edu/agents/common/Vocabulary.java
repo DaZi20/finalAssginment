@@ -7,9 +7,13 @@ package edu.agents.common;
 
 /**
  *
- * @author luiri60
+ * @author DaZi20
  */
 public class Vocabulary {
+    
+    public static final String CONVEYOR_STORAGE = "conveyor_storage";
+    
+    
     
     public static final String STACKER_ST2 = "stacker";
     public static final String MACHINE_ST2 = "machine";
