@@ -7,10 +7,9 @@ import edu.lowlevel.comboCM211.StationComponent;
  */
 public class StorageConveyor extends StationComponent {
      /** 
-     General control functions for pin_description given by ......pdf **/ 
-    public final int OCCUPIED = 0;
-    public final int STORAGE_1 = 1;
-    public final int STORAGE_2 = 2;
+     General control functions for conveyor belt with two pushers
+     * given by PLCPinDescription.pdf **/ 
+   
     
     public void startStorageConveyor(){
          combo.setValue_PIN_31(true);
@@ -133,7 +132,7 @@ public class StorageConveyor extends StationComponent {
             while(!pusher2Retracted()){
                 retractPusher2();
             }
-        
+            
       //  }
            
     }
