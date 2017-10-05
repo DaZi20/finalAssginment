@@ -5,7 +5,7 @@
  */
 package edu.lowlevel.comboCM211;
 
-import edu.agents.station3.thirdConveyor.StorageConveyor;
+import edu.agents.common.thirdConveyor.StorageConveyor;
 
 /**
  *

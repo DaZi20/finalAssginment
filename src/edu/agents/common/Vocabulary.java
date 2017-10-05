@@ -12,15 +12,9 @@ package edu.agents.common;
 public class Vocabulary {
     
     public static final String CONVEYOR_STORAGE = "conveyor_storage";
-    
-    
-    
-    public static final String STACKER_ST2 = "stacker";
-    public static final String MACHINE_ST2 = "machine";
-    public static final String FINAL_BUFFER_ST2 = "buffer";
-    public static final String CONVEYOR_ST2 = "conv2";
-    public static final String ENTRANCE_ST1 = "entrance";
-    public static final String PUNCH_ST1 = "punch";
+    public static final String STORAGE_CONVEYOR_INPUT = "input";
+    public static final String PUSHER_1 = "pusher1";
+    public static final String PUSHER_2 ="pusher2";
     public static final String EXIT_ST1 = "exit";
     public static final String CONVEYOR_ST1 = "conv1";
      public static final String INVALID_LOCATION = "invalid";

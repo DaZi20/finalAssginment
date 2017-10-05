@@ -1,4 +1,4 @@
-package edu.agents.station3.thirdConveyor;
+package edu.agents.common.thirdConveyor;
 import edu.lowlevel.comboCM211.StationComponent;
 
 /**
@@ -91,40 +91,40 @@ public class StorageConveyor extends StationComponent {
          * stop conveyor, throw the package away, whatever**/ 
         }
         else {
-        moveToStorage1();}
+        moveToPusher1();}
     }else {
-        moveToStorage2();}
+        moveToPusher2();}
     }
     
     /**Wait until object reaches Storage1,than proceed the storing process  **/ 
-    public void moveToStorage1(){
+    public void moveToPusher1(){
        while (!pusher1Engaged()) { 
            /* wait while conveyor is moving object to first Stacker
            should be solved bether than in a while loop -> periodic timer, async thread */
         }
    //     if(pusher1Engaged()) {
             stopStorageConveyor();
-            while(!pusher1Extended()){
+     /*       while(!pusher1Extended()){
                 extendPusher1();
             }
             stopPusher1();
             sleep(1000);
             while(!pusher1Retracted()){
-                retractPusher1();
+                retractPusher1(); 
             }
-      //  }
+      //  } */
     }
     
     
     /**Wait until object reaches Storage2,than proceed the storing process  **/
-    public void moveToStorage2(){
+    public void moveToPusher2(){
        while (!pusher2Engaged()) { 
            /* wait while conveyor is moving object to seccond Stacker
            should be solved bether than in a while loop -> periodic timer, async thread */
         }
    //     if(pusher1Engaged()) {
             stopStorageConveyor();
-            while(!pusher2Extended()){
+       /*     while(!pusher2Extended()){
                 extendPusher2();
             }
             stopPusher2();
@@ -134,7 +134,7 @@ public class StorageConveyor extends StationComponent {
             }
             
       //  }
-           
+         */  
     }
     
     

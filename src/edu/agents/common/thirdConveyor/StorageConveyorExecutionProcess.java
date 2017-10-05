@@ -3,8 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.agents.station3.thirdConveyor;
-
+package edu.agents.common.thirdConveyor;
 import edu.agents.common.ExecutionRequest;
 import edu.agents.common.ReceiveMessages;
 import jade.core.behaviours.CyclicBehaviour;
@@ -24,7 +23,7 @@ public class StorageConveyorExecutionProcess extends CyclicBehaviour{
     @Override
     public void action() {
         
-        
+ /*       
      if(!((StorageConveyorAgent)myAgent).getRequests().isEmpty()) {
         ExecutionRequest executionRequest = (ExecutionRequest) 
             ((StorageConveyorAgent)myAgent).getRequests().remove(0);
@@ -48,6 +47,6 @@ public class StorageConveyorExecutionProcess extends CyclicBehaviour{
         myAgent.send(aclMessage);
      }
      block(500); // why block ????? ??
-    }
+   */ }
     
 }

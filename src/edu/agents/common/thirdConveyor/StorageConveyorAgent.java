@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.agents.station3.thirdConveyor;
+package edu.agents.common.thirdConveyor;
 
 import edu.agents.common.TMPS35Agent;
 import edu.lowlevel.comboCM211.FinalStationSystem;
